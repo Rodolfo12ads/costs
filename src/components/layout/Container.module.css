@@ -1,0 +1,20 @@
+.container {
+    width: 1200px; /* Corrigido o espaço antes do "px" */
+    display: flex; 
+    justify-content: space-between; /*espassa os elemento de igual para igual*/
+    margin: 0 auto;
+    flex-wrap: wrap; /*quando os elemntos ultrapassares 1200px ele vai pra linha demaixo*/
+}
+
+.min-height {
+    min-height: 75vh; /* Altura mínima ocupando 75% do viewport */
+  }
+
+.start{
+    justify-content: flex-start;
+}
+
+.column{
+   flex-direction: column;
+   justify-content: flex-start ;
+}

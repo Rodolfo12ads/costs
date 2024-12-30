@@ -1,0 +1,33 @@
+{
+  "projects": [
+    {
+      "id": "3d57",
+      "name": "projeto22",
+      "budget": "200000",
+      "category": {
+        "id": "1",
+        "name": "infra"
+      },
+      "cost": 0,
+      "services": []
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "name": "infra"
+    },
+    {
+      "id": "2",
+      "name": "Desenvolvimento"
+    },
+    {
+      "id": "3",
+      "name": "Designer"
+    },
+    {
+      "id": "4",
+      "name": "Planejamento"
+    }
+  ]
+}
