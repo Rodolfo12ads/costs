@@ -10,6 +10,30 @@
       },
       "cost": 0,
       "services": []
+    },
+    {
+      "id": "b917",
+      "name": "Limpeza",
+      "budget": "30000",
+      "category": {
+        "id": "3",
+        "name": "Designer"
+      },
+      "cost": 5300,
+      "services": [
+        {
+          "name": "limpesa quintal",
+          "cost": "300",
+          "description": "desc limpeza",
+          "id": "9f0129b6-0189-4de4-ad30-07a5c851f5ce"
+        },
+        {
+          "name": "limpeza do condominio",
+          "cost": "5000",
+          "description": "desc limpeza",
+          "id": "dafba825-04b6-457e-a619-80cd3ffa8a29"
+        }
+      ]
     }
   ],
   "categories": [
