@@ -12,7 +12,7 @@ import Projects from './components/pages/Projects';
 
 function App() {
   return (
-    <Router basename="/costs">
+    <Router>
       <Navbar />
       <main>
         <Container customClass="min-height">
