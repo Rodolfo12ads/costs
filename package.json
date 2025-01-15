@@ -2,7 +2,7 @@
   "name": "costs",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Rodolfo12ads.github.io/costs",
+  "homepage": "https://json-server-backend-09r9.onrender.com",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
