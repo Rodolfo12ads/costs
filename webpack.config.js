@@ -20,7 +20,11 @@ module.exports = {
         ],
     },
     devServer: {
-        static: path.join(__dirname, 'dist'), // Configuração atualizada para servir arquivos estáticos
-        port: 3000, // Porta do servidor
+        static: path.join(__dirname, 'dist'), // Configuração para servir arquivos estáticos
+        port: 3000, // Porta para o servidor
+        setupMiddlewares: (middlewares, devServer) => {
+            console.log('Servidor iniciado em http://localhost:3000');
+            return middlewares;
+        },
     },
 };
