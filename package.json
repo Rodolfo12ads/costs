@@ -19,7 +19,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "backend": "json-server --watch db.json --port 5000",
+    "backend": "node_modules/.bin/json-server --watch db.json --port 5000",
     "build": "react-scripts build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
