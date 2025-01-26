@@ -18,7 +18,7 @@ function Projects() {
     // Fetch dos projetos ao carregar a página
     useEffect(() => {
         setTimeout(() => {
-            fetch('http://localhost:5000/projects', {
+            fetch('https://costs-production-d20b.up.railway.app/projects', {
                 method: 'GET',
                 headers: {
                     'Content-Type': 'application/json',
@@ -35,7 +35,7 @@ function Projects() {
 
     // Função para remover projetos
     function removeProject(id) {
-        fetch(`http://localhost:5000/projects/${id}`, {
+        fetch(`https://costs-production-d20b.up.railway.app/projects/${id}`, {
             method: 'DELETE',
             headers: {
                 'Content-Type': 'application/json',
