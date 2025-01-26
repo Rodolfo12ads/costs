@@ -17,7 +17,7 @@ function ProjectForm({ handleSubmit, btnText, projectData }) {
 
     // Carrega as categorias ao montar o componente
     useEffect(() => {
-        fetch('http://localhost:5000/categories', {
+        fetch('https://costs-production-d20b.up.railway.app/categories', {
             method: 'GET',
             headers: {
                 'Content-Type': 'application/json',
