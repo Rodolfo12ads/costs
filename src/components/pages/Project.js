@@ -23,7 +23,7 @@ function Project() {
     useEffect(() => {
         const fetchProject = async () => {
             try {
-                const response = await fetch(`http://localhost:5000/projects/${id}`, {
+                const response = await fetch(`https://costs-production-d20b.up.railway.app/projects/${id}`, {
                     method: 'GET',
                     headers: {
                         'Content-Type': 'application/json',
@@ -52,7 +52,7 @@ function Project() {
             setType('error')
             return false
         }
-        fetch(`http://localhost:5000/projects/${project.id}`, {
+        fetch(`https://costs-production-d20b.up.railway.app/projects/${project.id}`, {
             method: "PATCH",
             headers: {
                 'Content-type': 'application.json',
@@ -92,7 +92,7 @@ function Project() {
         project.cost = newcost
 
         // update project
-        fetch(`http://localhost:5000/projects/${project.id}`, {
+        fetch(`https://costs-production-d20b.up.railway.app/projects/${project.id}`, {
             method : "PATCH", 
             headers: {
                 'Content-type': 'application/json'
@@ -114,7 +114,7 @@ function Project() {
         projectUpdated.services = serviceUpdate
         projectUpdated.cost = parseFloat(projectUpdated.cost) - parseFloat(cost)
 
-        fetch(`http://localhost:5000/projects/${projectUpdated.id}`, {
+        fetch(`https://costs-production-d20b.up.railway.app/projects/${projectUpdated.id}`, {
             method: "PATCH",
             headers: {
                 'Content-Type' : 'application/json'
